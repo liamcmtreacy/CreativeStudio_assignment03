@@ -17,21 +17,25 @@
 <style>
     nav ul {
         list-style: none;
-        padding: 0;
+        padding: 5;
         margin: 0;
 		background-color: rgb(11, 80, 130);
         display: flex;
         justify-content: center;
     }
     
-    nav ul li {
-        margin: 0 15px;
+    nav ul li { /* i spaced out the words more because i thought they looked off too close together */
+        margin: 0 100px;
     }
     
-    nav ul li a {
+	 nav ul li a {
         text-decoration: none;
-		font-weight: bold;
-        color: rgb(255, 255, 255);
-	}
+        color: white;
+        font-weight: bold;
+    }
+
+    nav ul li a:hover {
+    color: #8c8c8c;        
+}
 
 	</style>
