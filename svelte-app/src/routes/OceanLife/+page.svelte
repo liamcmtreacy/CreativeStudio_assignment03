@@ -10,6 +10,13 @@
 <p> Click on a link which you want to read about</p>
 
 <style>
-    h1 {color: aquamarine;}
-    p {font-size: 18px;}
+        h1 {color: #5aa1ed; 
+        font-size: 25px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        border-bottom: #5aa1ed;}
+
+        p { font-size: 18px;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;}
 </style>
