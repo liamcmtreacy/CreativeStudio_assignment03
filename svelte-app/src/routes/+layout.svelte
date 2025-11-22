@@ -19,7 +19,7 @@
         list-style: none;
         padding: 0;
         margin: 0;
-		background-color: white;
+		background-color: rgb(11, 80, 130);
         display: flex;
         justify-content: center;
     }
@@ -30,7 +30,8 @@
     
     nav ul li a {
         text-decoration: none;
-        color: rgb(0, 0, 0);
+		font-weight: bold;
+        color: rgb(255, 255, 255);
 	}
 
 	</style>

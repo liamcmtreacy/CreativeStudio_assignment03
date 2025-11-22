@@ -11,14 +11,35 @@
     and wanted to create a site about it, and some creatures and aspects of it which I find interesting.
 </p>
 
+<a class="next-page" href="/OceanLife">Next Page</a>
+
 <style>
-        h1 {color: #000000; 
+        h1 {color: #ffffff; 
         font-size: 25px;
         font-family: 'Courier New', Courier, monospace;
         text-align: center;}
 
         p { font-size: 18px;
             font-family: 'Courier New', Courier, monospace;
-            color: black;
+            color: #000000; 
             text-align: center;}
+
+            
+          .next-page {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 18px;
+        color: #ffffff;
+        padding: 8px 14px;
+        border-radius: 6px;
+        background-color: #5aa1ed;
+        text-decoration: none;
+        transition: 0.2s ease-in-out;
+    }
+
+    .next-page:hover {
+        background-color: #2d79c9;
+    }
 </style>
