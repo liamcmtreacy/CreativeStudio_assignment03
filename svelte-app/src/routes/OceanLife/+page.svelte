@@ -9,6 +9,22 @@
 <h1> Welcome to Ocean Life</h1>
 <p> Click on a link which you want to read about</p>
 
+<div class = "grid05">
+
+<nav>
+    <ul>
+        <li><a href="/Clownfish">Clownfish</a></li>
+		<li><a href="/Crab">Crab</a></li>
+        <li><a href="/Dolphin">Dolphin</a></li>
+        <li><a href="/Lobster">Lobster</a></li> 
+        <li><a href="/SeaSponge">Sea Sponge</a></li>
+        <li><a href="/Squid">Squid</a></li>
+        <li><a href="/Starfish">Starfish</a></li> 
+    </ul>
+</nav>
+</div>
+
+
 <a class="next-page" href="/Clownfish">Next Page</a>
 <a class="previous_page" href="/About">Previous Page</a>
 
@@ -39,6 +55,16 @@
         background-color: #1270d4;
         text-decoration: none;
         transition: 0.2s ease-in-out;
+    }
+
+    .grid05{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        background-color: #1c3abd;
+        padding: 30px;
+        border-radius: 25px;
+
     }
 
     .next-page:hover {

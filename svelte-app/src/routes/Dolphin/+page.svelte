@@ -1,5 +1,9 @@
 <h1>Dolphin</h1>
 
+<div class = "grid03">
+
+</div>
+
 <a class="next-page" href="/Lobster">Next Page</a>
 <a class="previous_page" href = "/Crab">Previous Page</a>
 
@@ -39,6 +43,16 @@
       background-color: #1270d4;
         text-decoration: none;
         transition: 0.2s ease-in-out;
+    }
+
+    .grid03{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        background-color: #1c3abd;
+        padding: 30px;
+        border-radius: 25px;
+
     }
 
     .previous_page:hover {

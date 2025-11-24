@@ -1,5 +1,10 @@
 <h1>Crabs</h1>
 
+<div class = "grid02">
+
+</div>
+
+
 <a class="next-page" href="/Dolphin">Next Page</a>
 <a class="previous_page" href="/Clownfish">Previous Page</a>
 
@@ -27,6 +32,16 @@
         background-color: #074e99;
     }
     /* Code is basically the same, except it goes to a previous page, and is on the opposite side of the page */
+
+     .grid02{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        background-color: #1c3abd;
+        padding: 30px;
+        border-radius: 25px;
+
+    }
     .previous_page {
         position: fixed;
         bottom: 20px;

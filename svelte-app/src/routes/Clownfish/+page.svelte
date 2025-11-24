@@ -1,4 +1,7 @@
 <h1>Clownfish</h1>
+<div class = "grid01">
+
+</div>
 
 <a class="next-page" href="/Crab">Next Page</a>
 <a class="previous_page" href = "OceanLife">Previous Page</a>
@@ -21,6 +24,16 @@
         background-color: #1270d4;
         text-decoration: none;
         transition: 0.2s ease-in-out;
+    }
+
+    .grid01{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        background-color: #1c3abd;
+        padding: 30px;
+        border-radius: 25px;
+
     }
 
     .next-page:hover {
