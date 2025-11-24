@@ -18,15 +18,14 @@
         color: #ffffff;
         padding: 8px 14px;
         border-radius: 6px;
-        background-color: #5aa1ed;
+        background-color: #1270d4;
         text-decoration: none;
         transition: 0.2s ease-in-out;
     }
 
     .next-page:hover {
-        background-color: #2d79c9;
+        background-color: #074e99;
     }
-
     /* Code is basically the same, except it goes to a previous page, and is on the opposite side of the page */
     .previous_page {
         position: fixed;
@@ -37,12 +36,12 @@
         color: #ffffff;
         padding: 8px 14px;
         border-radius: 6px;
-        background-color: #5aa1ed;
+      background-color: #1270d4;
         text-decoration: none;
         transition: 0.2s ease-in-out;
     }
 
     .previous_page:hover {
-        background-color: #2d79c9;
+        background-color: #074e99;
     }
 </style>

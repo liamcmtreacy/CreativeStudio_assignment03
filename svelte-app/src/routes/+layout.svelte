@@ -18,6 +18,7 @@
     nav ul {
         list-style: none;
         padding: 5;
+        padding-bottom: 10px;
         margin: 0;
 		background-color: rgb(11, 80, 130);
         display: flex;
@@ -25,7 +26,9 @@
     }
     
     nav ul li { /* i spaced out the words more because i thought they looked off too close together */
-        margin: 0 100px;
+    margin: 0 150px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
     }
     
 	 nav ul li a {

@@ -7,8 +7,8 @@
         font-size: 25px;
         font-family: 'Courier New', Courier, monospace;
         text-align: center;}
-
-          .next-page {
+        
+    .next-page {
         position: fixed;
         bottom: 20px;
         right: 20px;
@@ -17,12 +17,12 @@
         color: #ffffff;
         padding: 8px 14px;
         border-radius: 6px;
-        background-color: #5aa1ed;
+        background-color: #1270d4;
         text-decoration: none;
         transition: 0.2s ease-in-out;
     }
 
     .next-page:hover {
-        background-color: #2d79c9;
+        background-color: #074e99;
     }
 </style>
