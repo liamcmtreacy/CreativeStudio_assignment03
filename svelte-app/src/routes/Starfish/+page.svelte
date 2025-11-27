@@ -1,7 +1,7 @@
 <h1>Starfish</h1>
 
 <div class = "grid08">
-
+    <img id="CF" src="/assets/starfish.png" alt="Orange and white clownfish swimming">
 </div>
 
 <a class="next-page" href="/Conclusion">Next Page</a>
@@ -44,6 +44,15 @@
         text-decoration: none;
         transition: 0.2s ease-in-out;
     }
+
+    #CF{ width: 300px;         
+    height: 300px;         
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+}
 
     .grid08{
         display: grid;

@@ -9,11 +9,18 @@
 <h1> In Conclusion</h1>
 <p> Thanks for reading my web zine, contact me at <a href = "mailto:info@example.com">Liamtreacy100@hotmail.com</a>.</p>
 
+<h2> References</h2>
+
 <a class="previous_page" href="/Starfish">Previous Page</a>
 
 <style>
         h1 {color: #ffffff; 
         font-size: 25px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;}
+
+           h2 {color: #ffffff; 
+        font-size: 20px;
         font-family: 'Courier New', Courier, monospace;
         text-align: center;}
 

@@ -1,7 +1,7 @@
 <h1>Crabs</h1>
 
 <div class = "grid02">
-
+    <img id="CF" src="/assets/crab.png" alt="Big red crab">
 </div>
 
 
@@ -33,6 +33,14 @@
     }
     /* Code is basically the same, except it goes to a previous page, and is on the opposite side of the page */
 
+    #CF{ width: 300px;         
+    height: 300px;         
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+}
      .grid02{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

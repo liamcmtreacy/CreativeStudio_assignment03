@@ -5,6 +5,7 @@
 
 <div class = "grid06">
 
+    <img id="CF" src="/assets/seaSponge.png" alt="Orange and white clownfish swimming">
 </div>
 
 <style>
@@ -40,6 +41,15 @@
         border-radius: 25px;
 
     }
+
+    #CF{ width: 300px;         
+    height: 300px;         
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+}
 
     /* Code is basically the same, except it goes to a previous page, and is on the opposite side of the page */
     .previous_page {
