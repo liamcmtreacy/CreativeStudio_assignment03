@@ -4,8 +4,17 @@
 <a class="previous_page" href = "/Lobster">Previous Page</a>
 
 <div class = "grid06">
-
-    <img id="CF" src="/assets/seaSponge.png" alt="Orange and white clownfish swimming">
+      <img id="CF" src="/assets/seaSponge.png" alt="Drawing of Sea Sponge with holes">
+     <table class="triviatable05">
+        <tbody>
+        <tr><td>Sea Sponges can reproduce sexually and asexually.</td></tr>
+        <tr><td>Sea Sponges were once used for medicinal reasons, due to their high amount of Iodine.</td></tr>
+        <tr><td>Sea Sponges are found in every ocean in the world.</td></tr>
+        <tr><td>Sea Sponges have small hairs which help them move through the water</td></tr>
+        <tr><td>There is some sea sponges which are believed to be 5000 years old.</td></tr>
+        <tr><td>Scientists are currently experimenting with Sea Sponges as a treatment for cancer.</td></tr>
+        </tbody>
+    </table>
 </div>
 
 <style>
@@ -41,6 +50,22 @@
         border-radius: 25px;
 
     }
+
+     .triviatable05 {
+        width: 100%;
+        font-family: "Courier New", monospace;
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        margin-left: -250px;        
+        }
+
+        .triviatable05 td {
+        padding: 12px 0;       
+        padding-right: 150px;  
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+        }
+
 
     #CF{ width: 300px;         
     height: 300px;         

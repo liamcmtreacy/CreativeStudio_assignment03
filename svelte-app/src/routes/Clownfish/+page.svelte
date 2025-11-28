@@ -2,6 +2,18 @@
 <div class = "grid01">
 
     <img id="CF" src="/assets/clownfish.png" alt="Orange and white clownfish swimming">
+
+    <table class="triviatable">
+        <tbody>
+        <tr><td>Clownfish are all born males. Once they become female, they cannot be male again.</td></tr>
+        <tr><td>Clownfish eggs can be hatched anytime during the year.</td></tr>
+        <tr><td>After the eggs are laid, the male clownfish guards them until they hatch.</td></tr>
+        <tr><td>Clownfish communicate by making popping and clicking noises.</td></tr>
+        <tr><td>Clownfish typically live for around 6–10 years.</td></tr>
+        <tr><td>Clownfish are carnivores.</td></tr>
+        </tbody>
+    </table>
+
 </div>
 
 <a class="next-page" href="/Crab">Next Page</a>
@@ -12,6 +24,22 @@
         font-size: 25px;
         font-family: 'Courier New', Courier, monospace;
         text-align: center;}
+
+        .triviatable {
+        width: 100%;
+        font-family: "Courier New", monospace;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        margin-left: -250px;        
+        }
+
+        .triviatable td {
+        padding: 12px 0;       
+        padding-right: 150px;  
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+        }
+
 
           .next-page {
         position: fixed;

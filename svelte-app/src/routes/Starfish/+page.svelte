@@ -1,7 +1,19 @@
 <h1>Starfish</h1>
 
 <div class = "grid08">
-    <img id="CF" src="/assets/starfish.png" alt="Orange and white clownfish swimming">
+    <img id="CF" src="/assets/starfish.png" alt="Drawing of Starfish">
+
+         <table class="triviatable07">
+        <tbody>
+        <tr><td>Starfish do not have blood or even a brain.</td></tr>
+        <tr><td>Starfish are actually called Sea Stars.</td></tr>
+        <tr><td>Starfish cannot survive in fresh water.</td></tr>
+        <tr><td>THere is 2000 species of Sea Star.</td></tr>
+        <tr><td>Starfish have the ability to regenerate their limbs.</td></tr>
+        <tr><td>There is a species of Sea Star called The Sun Star, which can grow up to 40 arms.</td></tr>
+        </tbody>
+    </table>
+
 </div>
 
 <a class="next-page" href="/Conclusion">Next Page</a>
@@ -12,6 +24,21 @@
         font-size: 25px;
         font-family: 'Courier New', Courier, monospace;
         text-align: center;}
+
+        .triviatable07 {
+        width: 100%;
+        font-family: "Courier New", monospace;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        margin-left: -250px;        
+        }
+
+        .triviatable07 td {
+        padding: 12px 0;       
+        padding-right: 150px;  
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+        }
 
             .next-page {
         position: fixed;
@@ -45,8 +72,8 @@
         transition: 0.2s ease-in-out;
     }
 
-    #CF{ width: 300px;         
-    height: 300px;         
+    #CF{ width: 350px;         
+    height: 350px;         
     background: rgba(255, 255, 255, 0.2);
     border: 2px solid white;
     padding: 20px;

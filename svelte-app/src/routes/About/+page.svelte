@@ -9,6 +9,8 @@
 <h1> So what is this page about?</h1>
 <p> This web zine has been created for a college assignment, I have always had an interest in the Ocean
     and wanted to create a site about it, and some creatures and aspects of it which I find interesting.
+
+    I hope you enjoy what you see!
 </p>
 
 <a class="next-page" href="/OceanLife">Next Page</a>
@@ -21,8 +23,9 @@
         text-align: center;}
 
         p { font-size: 18px;
+            font-weight: bold;
             font-family: 'Courier New', Courier, monospace;
-            color: #000000; 
+            color: #ffffff; 
             text-align: center;}
 
             

@@ -1,7 +1,17 @@
 <h1>Dolphin</h1>
 
 <div class = "grid03">
-    <img id="CF" src="/assets/dolphin.png" alt="Orange and white clownfish swimming">
+    <img id="CF" src="/assets/dolphin.png" alt="Dolphin drawing">
+       <table class="triviatable03">
+        <tbody>
+        <tr><td>There are 42 species of Dolphins.</td></tr>
+        <tr><td>Dolphins do not chew, they break food down and then swallow.</td></tr>
+        <tr><td>Dolphins eat Squids, Crabs and Fish.</td></tr>
+        <tr><td>Dolphins are pregnant for 9-16 months.</td></tr>
+        <tr><td>Dolphins are mammals, and must leave the water to breathe air.</td></tr>
+        <tr><td>Doplhins have conical shaped teeth.</td></tr>
+        </tbody>
+    </table>
 </div>
 
 <a class="next-page" href="/Lobster">Next Page</a>
@@ -44,6 +54,22 @@
         text-decoration: none;
         transition: 0.2s ease-in-out;
     }
+
+     .triviatable03 {
+        font-weight: bold;
+        width: 100%;
+        font-family: "Courier New", monospace;
+        font-size: 20px;
+        color: white;
+        margin-left: -250px;        
+        }
+
+        .triviatable03 td {
+        padding: 12px 0;       
+        padding-right: 150px;  
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+        }
+
 
     #CF{ width: 300px;         
     height: 300px;         
