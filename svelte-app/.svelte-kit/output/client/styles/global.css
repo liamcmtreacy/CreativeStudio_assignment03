@@ -1,0 +1,60 @@
+/* code from Libor Zachoval year 2 notes */
+   :root {
+    --primary-color: #022851;
+    --background-color: #f8f9fa;
+    --text-color: #333;
+    --link-hover-color: #001b35;
+
+    --font-family: 'Arial', sans-serif;
+    --font-size-base: 16px;
+    --line-height-base: 1.6;
+
+    --spacing-small: 10px;
+    --spacing-medium: 20px;
+    --spacing-large: 40px;
+    --max-width: 1200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    background-color: #7aaff4;
+    color: var(--text-color);
+    line-height: var(--line-height-base);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-bottom: var(--spacing-small);
+}
+
+p {
+    margin-bottom: var(--spacing-small);
+}
+
+/* ==============================
+   Links
+   ============================== */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--link-hover-color);
+}
+
+.container {
+    width: 90%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--spacing-medium);
+}

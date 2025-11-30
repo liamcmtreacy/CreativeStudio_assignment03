@@ -1,0 +1,264 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_environment.js",
+      "_server.js"
+    ]
+  },
+  "__page.lK1Ur5pD.css": {
+    "file": "_app/immutable/assets/_page.lK1Ur5pD.css",
+    "src": "__page.lK1Ur5pD.css"
+  },
+  "_environment.js": {
+    "file": "chunks/environment.js",
+    "name": "environment"
+  },
+  "_equality.js": {
+    "file": "chunks/equality.js",
+    "name": "equality"
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports",
+    "imports": [
+      "_equality.js"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index"
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_index.js",
+      "_environment.js",
+      "_equality.js",
+      "_server.js"
+    ]
+  },
+  "_server.js": {
+    "file": "chunks/server.js",
+    "name": "server"
+  },
+  "_shared.js": {
+    "file": "chunks/shared.js",
+    "name": "shared",
+    "imports": [
+      "_utils.js"
+    ]
+  },
+  "_utils.js": {
+    "file": "chunks/utils.js",
+    "name": "utils"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/app/server/remote/index.js": {
+    "file": "remote-entry.js",
+    "name": "remote-entry",
+    "src": "node_modules/@sveltejs/kit/src/runtime/app/server/remote/index.js",
+    "isEntry": true,
+    "imports": [
+      "_shared.js",
+      "_environment.js",
+      "_server.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_environment.js",
+      "_server.js",
+      "_exports.js",
+      "_utils.js",
+      "_internal.js",
+      "_shared.js"
+    ]
+  },
+  "src/routes/+error.svelte": {
+    "file": "entries/pages/_error.svelte.js",
+    "name": "entries/pages/_error.svelte",
+    "src": "src/routes/+error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_equality.js",
+      "_exports.js",
+      "_utils.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_error.CFpw3B0w.css"
+    ]
+  },
+  "src/routes/+layout.js": {
+    "file": "entries/pages/_layout.js",
+    "name": "entries/pages/_layout",
+    "src": "src/routes/+layout.js",
+    "isEntry": true
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_server.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.hkOxccqX.css"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_server.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.lK1Ur5pD.css"
+    ]
+  },
+  "src/routes/About/+page.svelte": {
+    "file": "entries/pages/About/_page.svelte.js",
+    "name": "entries/pages/About/_page.svelte",
+    "src": "src/routes/About/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_server.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.m9OLVeU3.css"
+    ]
+  },
+  "src/routes/Clownfish/+page.svelte": {
+    "file": "entries/pages/Clownfish/_page.svelte.js",
+    "name": "entries/pages/Clownfish/_page.svelte",
+    "src": "src/routes/Clownfish/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_server.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BEfhqgWT.css"
+    ]
+  },
+  "src/routes/Conclusion/+page.svelte": {
+    "file": "entries/pages/Conclusion/_page.svelte.js",
+    "name": "entries/pages/Conclusion/_page.svelte",
+    "src": "src/routes/Conclusion/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_server.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.D722VmOk.css",
+      "_app/immutable/assets/_page.lK1Ur5pD.css"
+    ]
+  },
+  "src/routes/Crab/+page.svelte": {
+    "file": "entries/pages/Crab/_page.svelte.js",
+    "name": "entries/pages/Crab/_page.svelte",
+    "src": "src/routes/Crab/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_server.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BQRS6UKb.css"
+    ]
+  },
+  "src/routes/Dolphin/+page.svelte": {
+    "file": "entries/pages/Dolphin/_page.svelte.js",
+    "name": "entries/pages/Dolphin/_page.svelte",
+    "src": "src/routes/Dolphin/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_server.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CnwJlilN.css"
+    ]
+  },
+  "src/routes/Lobster/+page.svelte": {
+    "file": "entries/pages/Lobster/_page.svelte.js",
+    "name": "entries/pages/Lobster/_page.svelte",
+    "src": "src/routes/Lobster/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_server.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.DdDbXxik.css"
+    ]
+  },
+  "src/routes/OceanLife/+page.svelte": {
+    "file": "entries/pages/OceanLife/_page.svelte.js",
+    "name": "entries/pages/OceanLife/_page.svelte",
+    "src": "src/routes/OceanLife/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_server.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.DXbyIbrm.css"
+    ]
+  },
+  "src/routes/SeaSponge/+page.svelte": {
+    "file": "entries/pages/SeaSponge/_page.svelte.js",
+    "name": "entries/pages/SeaSponge/_page.svelte",
+    "src": "src/routes/SeaSponge/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_server.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.B7vOwPGY.css"
+    ]
+  },
+  "src/routes/Squid/+page.svelte": {
+    "file": "entries/pages/Squid/_page.svelte.js",
+    "name": "entries/pages/Squid/_page.svelte",
+    "src": "src/routes/Squid/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_server.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CdKzyWhq.css"
+    ]
+  },
+  "src/routes/Starfish/+page.svelte": {
+    "file": "entries/pages/Starfish/_page.svelte.js",
+    "name": "entries/pages/Starfish/_page.svelte",
+    "src": "src/routes/Starfish/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_server.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.DCcDKQUZ.css"
+    ]
+  }
+}

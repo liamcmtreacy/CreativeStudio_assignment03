@@ -1,0 +1,36 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/About": [
+		"src/routes/+layout.js"
+	],
+	"/Clownfish": [
+		"src/routes/+layout.js"
+	],
+	"/Conclusion": [
+		"src/routes/+layout.js"
+	],
+	"/Crab": [
+		"src/routes/+layout.js"
+	],
+	"/Dolphin": [
+		"src/routes/+layout.js"
+	],
+	"/Lobster": [
+		"src/routes/+layout.js"
+	],
+	"/OceanLife": [
+		"src/routes/+layout.js"
+	],
+	"/SeaSponge": [
+		"src/routes/+layout.js"
+	],
+	"/Squid": [
+		"src/routes/+layout.js"
+	],
+	"/Starfish": [
+		"src/routes/+layout.js"
+	]
+}
