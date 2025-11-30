@@ -1,7 +1,12 @@
+<script>
+import {base} from '$app/paths';
+console.log("crab page loaded");
+</script>
+
 <h1>Crabs</h1>
 
 <div class = "grid02">
-    <img id="CF" src="/assets/crab.png" alt="Drawing of Red Crab">
+    <img id="CF" src="{base}/assets/crab.png" alt="Drawing of Red Crab">
 
      <table class="triviatable02">
         <tbody>
@@ -16,8 +21,8 @@
 </div>
 
 
-<a class="next-page" href="/Dolphin">Next Page</a>
-<a class="previous_page" href="/Clownfish">Previous Page</a>
+<a class="next-page" href="{base}/Dolphin">Next Page</a>
+<a class="previous_page" href="{base}/Clownfish">Previous Page</a>
 
 <style>
  h1 {color: #ffffff; 

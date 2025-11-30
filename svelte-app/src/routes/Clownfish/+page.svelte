@@ -1,7 +1,11 @@
+<script>
+        import {base} from '$app/paths';
+        console.log("clownfish page loaded");
+</script>
 <h1>Clownfish</h1>
 <div class = "grid01">
 
-    <img id="CF" src="/assets/clownfish.png" alt="Orange and white clownfish swimming">
+    <img id="CF" src="{base}/assets/clownfish.png" alt="Orange and white clownfish swimming">
 
     <table class="triviatable">
         <tbody>
@@ -16,8 +20,8 @@
 
 </div>
 
-<a class="next-page" href="/Crab">Next Page</a>
-<a class="previous_page" href = "OceanLife">Previous Page</a>
+<a class="next-page" href="{base}/Crab">Next Page</a>
+<a class="previous_page" href = "{base}/OceanLife">Previous Page</a>
 
 <style>
  h1 {color: #ffffff; 

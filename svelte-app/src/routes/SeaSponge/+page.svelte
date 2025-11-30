@@ -1,10 +1,16 @@
+<script>
+import {base} from '$app/paths';
+console.log("sea sponge page loaded");
+</script>
+
+
 <h1>Sea Sponge</h1>
 
-<a class="next-page" href="/Squid">Next Page</a>
-<a class="previous_page" href = "/Lobster">Previous Page</a>
+<a class="next-page" href="{base}/Squid">Next Page</a>
+<a class="previous_page" href = "{base}/Lobster">Previous Page</a>
 
 <div class = "grid06">
-      <img id="CF" src="/assets/seaSponge.png" alt="Drawing of Sea Sponge with holes">
+      <img id="CF" src="{base}/assets/seaSponge.png" alt="Drawing of Sea Sponge with holes">
      <table class="triviatable05">
         <tbody>
         <tr><td>Sea Sponges can reproduce sexually and asexually.</td></tr>

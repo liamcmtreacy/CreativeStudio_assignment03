@@ -1,7 +1,11 @@
+<script>
+import {base} from '$app/paths';
+console.log("dolphin page loaded");
+</script>
 <h1>Dolphin</h1>
 
 <div class = "grid03">
-    <img id="CF" src="/assets/dolphin.png" alt="Dolphin drawing">
+    <img id="CF" src="{base}/assets/dolphin.png" alt="Dolphin drawing">
        <table class="triviatable03">
         <tbody>
         <tr><td>There are 42 species of Dolphins.</td></tr>
@@ -14,8 +18,8 @@
     </table>
 </div>
 
-<a class="next-page" href="/Lobster">Next Page</a>
-<a class="previous_page" href = "/Crab">Previous Page</a>
+<a class="next-page" href="{base}/Lobster">Next Page</a>
+<a class="previous_page" href = "{base}/Crab">Previous Page</a>
 
 <style>
  h1 {color: #ffffff; 

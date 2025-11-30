@@ -1,9 +1,14 @@
+<script>
+import {base} from '$app/paths';
+console.log("About info page loaded");
+</script>
+
 <h1>Welcome to my Ocean Zine</h1>
 <div class = "startingGrid">
-<img id="OC" src="/assets/oceanTitle.png" alt="Drawing of Red Crab">
+<img id="OC" src="{base}/assets/oceanTitle.png" alt="Drawing of Ocean at Night">
 <p>This site is best suited to be read on a computer</p>
 </div>
-<a class="next-page" href="/About">Next Page</a>
+<a class="next-page" href="{base}/About">Next Page</a>
 
 <style>
  h1 {color: #ffffff; 

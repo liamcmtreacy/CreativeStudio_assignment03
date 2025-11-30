@@ -1,6 +1,6 @@
 <script>
     import {onMount} from 'svelte';
-
+    import {base} from '$app/paths';
     onMount(() => {
         console.log("Ocean Life Page Loaded Up");
     });
@@ -12,58 +12,58 @@
 <div class="grid05">
     <ul class="clickableList">
         <li>
-            <a href="/Clownfish">
-                <img src="/assets/clownfish.png" alt="clownfish doodle">
+            <a href="{base}/Clownfish">
+                <img src="{base}/assets/clownfish.png" alt="clownfish doodle">
                 <p>Learn all about Clownfish by clicking here</p>
             </a>
         </li>
 
         <li>
-            <a href="/Crab">
-                <img src="/assets/crab.png" alt="crab doodle">
+            <a href="{base}/Crab">
+                <img src="{base}/assets/crab.png" alt="crab doodle">
                 <p>Learn about the Crab by clicking here</p>
             </a>
         </li>
 
         <li>
-            <a href="/Dolphin">
-                <img src="/assets/dolphin.png" alt="dolphin doodle">
+            <a href="{base}/Dolphin">
+                <img src="{base}/assets/dolphin.png" alt="dolphin doodle">
                 <p>Learn about the Dolphin by clicking here</p>
             </a>
         </li>
 
         <li>
-            <a href="/Lobster">
-                <img src="/assets/lobster.png" alt="lobster doodle">
+            <a href="{base}/Lobster">
+                <img src="{base}/assets/lobster.png" alt="lobster doodle">
                 <p>Learn about Lobsters by clicking here</p>
             </a>
         </li>
 
         <li>
-            <a href="/SeaSponge">
-                <img src="/assets/seaSponge.png" alt="drawing of Sea Sponge">
+            <a href="{base}/SeaSponge">
+                <img src="{base}/assets/seaSponge.png" alt="drawing of Sea Sponge">
                 <p>Learn about Sea Sponges by clicking here</p>
             </a>
         </li>
 
         <li>
-            <a href="/Squid">
-                <img src="/assets/squid.png" alt="Squid Drawing">
+            <a href="{base}/Squid">
+                <img src="{base}/assets/squid.png" alt="Squid Drawing">
                 <p>Learn about Squid by clicking here</p>
             </a>
         </li>
 
         <li>
-            <a href="/Starfish">
-                <img src="/assets/starfish.png" alt="starfish doodle">
+            <a href="{base}/Starfish">
+                <img src="{base}/assets/starfish.png" alt="starfish doodle">
                 <p>Learn about Starfish by clicking here</p>
             </a>
         </li>
     </ul>
 </div>
 
-<a class="next-page" href="/Clownfish">Next Page</a>
-<a class="previous_page" href="/About">Previous Page</a>
+<a class="next-page" href="{base}/Clownfish">Next Page</a>
+<a class="previous_page" href="{base}/About">Previous Page</a>
 
 <style>
     h1 {

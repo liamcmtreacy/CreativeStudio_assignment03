@@ -1,7 +1,12 @@
+<script>
+import {base} from '$app/paths';
+console.log("squid page loaded");
+</script>
+
 <h1>Squid</h1>
 
 <div class = "grid07">
-    <img id="CF" src="/assets/squid.png" alt="Grey drawing of squid">
+    <img id="CF" src="{base}/assets/squid.png" alt="Grey drawing of squid">
 
          <table class="triviatable06">
         <tbody>
@@ -15,8 +20,8 @@
     </table>
 </div>
 
-<a class="next-page" href="/Starfish">Next Page</a>
-<a class ="previous_page" href = "/SeaSponge">Previous Page</a>
+<a class="next-page" href="{base}/Starfish">Next Page</a>
+<a class ="previous_page" href = "{base}/SeaSponge">Previous Page</a>
 
 <style>
  h1 {color: #ffffff; 

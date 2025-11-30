@@ -1,7 +1,11 @@
+<script>
+import {base} from '$app/paths';
+console.log("starfish page loaded");
+</script>
 <h1>Starfish</h1>
 
 <div class = "grid08">
-    <img id="CF" src="/assets/starfish.png" alt="Drawing of Starfish">
+    <img id="CF" src="{base}/assets/starfish.png" alt="Drawing of Starfish">
 
          <table class="triviatable07">
         <tbody>
@@ -16,8 +20,8 @@
 
 </div>
 
-<a class="next-page" href="/Conclusion">Next Page</a>
-<a class="previous_page" href="/Squid">Previous Page</a>
+<a class="next-page" href="{base}/Conclusion">Next Page</a>
+<a class="previous_page" href="{base}/Squid">Previous Page</a>
 
 <style>
  h1 {color: #ffffff; 
@@ -88,7 +92,6 @@
         background-color: #1c3abd;
         padding: 30px;
         border-radius: 25px;
-
     }
 
     .previous_page:hover {

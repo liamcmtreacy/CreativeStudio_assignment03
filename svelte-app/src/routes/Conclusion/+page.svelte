@@ -1,6 +1,7 @@
 <script>
     import {onMount} from 'svelte';
 	import Page from '../+page.svelte';
+    import {base} from '$app/paths';
 
     onMount(() => {
         console.log("Conclusion Page Loaded Up");
@@ -8,7 +9,8 @@
 </script>
 <div class = "grid09">
     <h1> In Conclusion</h1>
-<p> Thanks for reading my web zine, if you are interesting in getting in contact me at, sned me an email at Liamtreacy100@hotmail.com</p>
+<p> Thanks for reading my web zine, if you are interesting in getting in contact me at, send me an email at Liamtreacy100@hotmail.com</p>
+<a href = "https://github.com/liamcmtreacy">Check out my Github page</a>
 
 <h2> References</h2>
 <table class = "referTable">
@@ -26,7 +28,7 @@
 </div>
 
 
-<a class="previous_page" href="/Starfish">Previous Page</a>
+<a class="previous_page" href="{base}/Starfish">Previous Page</a>
 
 <style>
         h1 {color: #ffffff; 
@@ -44,7 +46,17 @@
             color: #ffffff; 
             font-weight: bold;
             text-align: center;}
-            
+
+            a {
+                color: white;
+                font-weight: bold;
+                font-family: "Courier New", monospace;
+            }
+
+            a:hover {
+                background: #074e99; /* nice hover effect */
+                transform: scale(1.05);
+            }
             .grid09{
         display: flex;;
         flex-direction: column;

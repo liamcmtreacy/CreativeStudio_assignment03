@@ -1,5 +1,6 @@
 <script>
     import {onMount} from 'svelte';
+    import {base} from '$app/paths';
 
     onMount(() => {
         console.log("About Page Loaded Up");
@@ -14,8 +15,8 @@
 </p>
 </div>
 
-<a class="next-page" href="/OceanLife">Next Page</a>
-<a class ="previous_page" href ="/">Previous Page</a>
+<a class="next-page" href="{base}/OceanLife">Next Page</a>
+<a class ="previous_page" href ="{base}">Previous Page</a>
 
 <style>
            h1 {color: #ffffff; 

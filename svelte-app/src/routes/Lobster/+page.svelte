@@ -1,7 +1,12 @@
+<script>
+import {base} from '$app/paths';
+console.log("lobster page loaded");
+</script>
+
 <h1>Lobster</h1>
 
 <div class = "grid04">
-    <img id="CF" src="/assets/lobster.png" alt="Red Lobster drawing">
+    <img id="CF" src="{base}/assets/lobster.png" alt="Red Lobster drawing">
      <table class="triviatable04">
         <tbody>
         <tr><td>Lobsters are only red when they are cooked, live lobsters are usually dark green - brown.</td></tr>
@@ -15,8 +20,8 @@
     
 </div>
 
-<a class="next-page" href="/SeaSponge">Next Page</a>
-<a class="previous_page" href = "/Dolphin">Previous Page</a>
+<a class="next-page" href="{base}/SeaSponge">Next Page</a>
+<a class="previous_page" href = "{base}/Dolphin">Previous Page</a>
 
 <style>
  h1 {color: #ffffff; 
@@ -74,7 +79,6 @@
         background-color: #1c3abd;
         padding: 30px;
         border-radius: 25px;
-
     }
 
     /* Code is basically the same, except it goes to a previous page, and is on the opposite side of the page */
